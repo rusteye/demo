@@ -2,7 +2,7 @@ stages:
 - name: build jar
   steps:
   - runScriptConfig:
-      image: java:8
+      image: maven:3.6.0-jdk-8-alpine
       shellScript: mvn clean package
 - name: build image
   steps:
