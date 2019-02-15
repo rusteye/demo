@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
       - name: demo
-        image: swydesky/demo:v021501
+        image: 10.43.106.233/demo:v021501
         ports:
         - containerPort: 8080
 
