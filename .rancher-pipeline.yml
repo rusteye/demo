@@ -9,7 +9,7 @@ stages:
   - publishImageConfig:
       dockerfilePath: ./Dockerfile
       buildContext: .
-      tag: swydesky/demo:v021501
+      tag: 10.43.106.233/demo:v021501
 - name: deploy
   steps:
   - applyYamlConfig:
