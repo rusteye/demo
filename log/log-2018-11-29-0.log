@@ -1,5 +1,0 @@
-2018-11-29 10:14:41.068 [ main ] - [ INFO  ] [ com.tf.demo.DemoApplicationTests : 50 ] - Starting DemoApplicationTests on 814-PC with PID 17104 (started by 814 in D:\workspace2\eclipse-workspace\demo)
-2018-11-29 10:14:41.072 [ main ] - [ INFO  ] [ com.tf.demo.DemoApplicationTests : 675 ] - No active profile set, falling back to default profiles: default
-2018-11-29 10:14:42.326 [ main ] - [ INFO  ] [ o.s.scheduling.concurrent.ThreadPoolTaskExecutor : 171 ] - Initializing ExecutorService 'applicationTaskExecutor'
-2018-11-29 10:14:42.546 [ main ] - [ INFO  ] [ com.tf.demo.DemoApplicationTests : 59 ] - Started DemoApplicationTests in 1.757 seconds (JVM running for 2.448)
-2018-11-29 10:14:42.766 [ Thread-2 ] - [ INFO  ] [ o.s.scheduling.concurrent.ThreadPoolTaskExecutor : 208 ] - Shutting down ExecutorService 'applicationTaskExecutor'
