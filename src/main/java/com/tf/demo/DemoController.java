@@ -13,18 +13,18 @@ public class DemoController {
 	@RequestMapping("/hello")
 	public String testDemo() {
 		log.info("test hello");
-		return "test hello";
+		return "test hello dev";
 	}
 	
 	@RequestMapping("/test")
 	public String test() {
 		log.info("test success");
-		return "test success";
+		return "test success dev";
 	}
 	
 	@RequestMapping("/test2")
 	public String test2() {
 		log.info("test2 success");
-		return "test2 success";
+		return "test2 success dev";
 	}
 }
