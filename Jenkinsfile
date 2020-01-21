@@ -11,7 +11,7 @@ pipeline {
       steps {
         sh 'mvn -B -DskipTests clean package'
         archiveArtifacts '**/target/*.jar'
-        sh 'apt-get install expect'
+        sh 'apk add expect'
       }
     }
 
