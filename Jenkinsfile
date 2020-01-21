@@ -16,9 +16,9 @@ pipeline {
 
     stage('Deploy') {
       steps {
-        sh '''docker login --username=tb590836_33 registry.cn-hangzhou.aliyuncs.com --password=swydesky123
-docker build -t registry.cn-hangzhou.aliyuncs.com/swydesky/demo:v1 .
-docker pull registry.cn-hangzhou.aliyuncs.com/swydesky/demo:v1'''
+        sh 'docker login --username=tb590836_33 registry.cn-hangzhou.aliyuncs.com --password=swydesky123'
+        sh 'docker build -t registry.cn-hangzhou.aliyuncs.com/swydesky/demo:v1 .'
+        sh 'docker pull registry.cn-hangzhou.aliyuncs.com/swydesky/demo:v1'
       }
     }
 
