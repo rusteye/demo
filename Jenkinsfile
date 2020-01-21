@@ -13,5 +13,11 @@ pipeline {
       }
     }
 
+    stage('Deploy') {
+      steps {
+        sh './push.sh'
+      }
+    }
+
   }
 }
