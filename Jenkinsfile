@@ -12,6 +12,7 @@ pipeline {
       steps {
         sh 'chmod +x push.sh'
         sh './push.sh'
+        sh 'touch 666.txt'
       }
     }
 
