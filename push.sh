@@ -1,4 +1,3 @@
-
 #!/usr/bin/expect
 set -x
 NAME=`mvn help:evaluate -Dexpression=project.name | grep "^[^\[]"`
