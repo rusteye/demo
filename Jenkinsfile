@@ -10,9 +10,7 @@ pipeline {
 
     stage('Deploy') {
       steps {
-        sh 'chmod +x push.sh'
-        sh './push.sh'
-        sh 'touch 666.txt'
+        sh 'ssh root@172.16.50.216 "touch 999.txt"'
       }
     }
 
