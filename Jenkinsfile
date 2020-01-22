@@ -1,10 +1,5 @@
 pipeline {
-  agent {
-    node {
-      label 'master'
-    }
-
-  }
+  agent any
   stages {
     stage('Build') {
       steps {
@@ -21,5 +16,8 @@ pipeline {
       }
     }
 
+  }
+  tools {
+    maven 'maven'
   }
 }
